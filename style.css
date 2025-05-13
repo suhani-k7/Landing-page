@@ -1,5 +1,84 @@
-*{
-    margin: 10px;
-    padding: 10px;
-    background-color: burlywood;
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: #1f2937;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.header{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.header-logo{
+    justify-content: flex-start;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.header-links{
+    display: flex;
+    justify-self: flex-end;
+    gap:20px;
+    font-size: 12px;
+
+}
+
+li{
+    color: white;
+    justify-self: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    justify-content: flex-end;
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-sub{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+button{
+    display: inline-block;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+    width: 90px;
+    height: 30px;
 }
